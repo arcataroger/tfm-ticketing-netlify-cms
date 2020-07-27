@@ -27,6 +27,14 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
+  - name: "learningResource"
+    label: "Learning Resource"
+    folder: "src/content-types"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string" }
+      - {label: "Short Description", name: "description", widget: "markdown" }
+
   - name: "pages"
     label: "Pages"
     files:
